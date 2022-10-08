@@ -1,0 +1,49 @@
+{
+  "name": "eyesense-music-bot",
+  "version": "11.0.0",
+  "description": "Bot to play Music from Youtube, Soundcloud or Spotify using the new slash commands and a lot more!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "music",
+    "discord-music",
+    "discord-music-bot",
+    "music-discord-bot",
+    "eyesense",
+    "spotify",
+    "soundcloud",
+    "bot",
+    "yotutbe-bot",
+    "discord-bot"
+  ],
+  "author": "naseif",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/rest": "^0.3.0",
+    "@discordjs/voice": "^0.8.0",
+    "bufferutil": "^4.0.6",
+    "chalk": "^4.1.2",
+    "devtools-ts": "^1.1.0",
+    "discord-api-types": "^0.27.3",
+    "discord-player": "^5.2.2",
+    "discord.js": "^13.6.0",
+    "ffmpeg-static": "^4.4.0",
+    "genius-lyrics-api": "^3.2.0",
+    "jikanjs": "^0.7.0",
+    "libsodium-wrappers": "^0.7.9",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.8",
+    "node-fetch": "^2.6.1",
+    "opusscript": "^0.0.8",
+    "play-dl": "^1.8.1",
+    "quickmongo": "^3.0.2",
+    "utf-8-validate": "^5.0.8"
+  },
+  "devDependencies": {
+    "mdtable": "^0.3.1"
+  }
+}
